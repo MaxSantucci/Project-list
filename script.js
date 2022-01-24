@@ -300,5 +300,3 @@ readMap.set(messages[0], new Date(2017, 1, 1));
 // function count(obj) {
 //    return Object.keys(obj).length;
 // }
-
-function networkFetch(url)
