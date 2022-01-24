@@ -209,20 +209,20 @@
 
 
 
-function aclean(arr) {
-   let map = new Map();
+// function aclean(arr) {
+//    let map = new Map();
 
-   for (let word of arr) {
-      let sorted = word.toLowerCase().split("").sort().join("");
-      map.set(sorted, word);
-   }
+//    for (let word of arr) {
+//       let sorted = word.toLowerCase().split("").sort().join("");
+//       map.set(sorted, word);
+//    }
 
-   return Array.from(map.values());
-}
+//    return Array.from(map.values());
+// }
 
-let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+// let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
-alert( aclean(arr) );
+// alert( aclean(arr) );
 
 
 
@@ -258,15 +258,15 @@ alert( aclean(arr) );
 
 
 
-let messages = [
-   {text: "Hello", from: "John"},
-   {text: "How goes?", from: "John"},
-   {text: "See you soon", from: "Alice"}
-];
+// let messages = [
+//    {text: "Hello", from: "John"},
+//    {text: "How goes?", from: "John"},
+//    {text: "See you soon", from: "Alice"}
+// ];
 
-let readMap = new WeakMap();
+// let readMap = new WeakMap();
 
-readMap.set(messages[0], new Date(2017, 1, 1));
+// readMap.set(messages[0], new Date(2017, 1, 1));
 
 
 
